@@ -27,12 +27,13 @@ def table_page(table_data):
             </head>
 
         <body>
-
-            <h3 class="center">Mario Kart Character/Vehicle Combination Comparisons</h3>
-
-            <table class=" highlight sortable">
-                {}
-            </table>
+            <div class="container">
+                <h3 class="center">Mario Kart Character/Vehicle Combinations</h3>
+                <h6 class="center">Click table headers to sort by attribute.</h6>
+                <table class=" highlight centered responsive-table sortable">
+                    {}
+                </table>
+            </div>
 
             <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
         </body>
